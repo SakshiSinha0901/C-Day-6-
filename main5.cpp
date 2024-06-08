@@ -41,4 +41,24 @@ int main(){
     }
     return 0;
 }
-    
+
+//do while loop
+// int main(){
+//     int count= 10;
+
+//     int i = 1;
+//     do{
+//         cout<<"Sakshi"<<"";
+//         i= i+1;
+//     }while (i<=count);
+// }
+
+//nested loop
+int main(){
+    for(int i = 1; i<=2; i= i+1){
+        for(int j=1; j<=2; j= j+1){
+            cout <<i*j<<"";
+        }
+    }
+    return 0;
+}
