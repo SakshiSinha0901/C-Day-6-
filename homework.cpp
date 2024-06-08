@@ -45,3 +45,17 @@ int main() {
     
     return 0;
 }
+
+//A to Z alphabet
+// int main(){
+//     for (char ch = 'A'; ch <= 'Z'; ch++){
+//         cout<<ch<<endl;
+//     }
+// }
+
+//A to Z alphabet
+int main(){
+    for (char ch = 'a'; ch <= 'z'; ch++){
+        cout<<ch<<endl;
+    }
+}
